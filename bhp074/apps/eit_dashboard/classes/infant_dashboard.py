@@ -139,4 +139,3 @@ class InfantDashboard(DashboardMixin, RegisteredSubjectDashboard):
 
     def subject_hiv_status(self):
         return 'POS'
-

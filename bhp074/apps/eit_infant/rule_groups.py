@@ -156,7 +156,7 @@ def func_antepartum_elisa(visit_instance):
 def func_antepartum_pcr(visit_instance):
 
     visit=['1000', '1084']
-    
+
     maternal_id = MaternalConsent.objects.get(subject_identifier=visit_instance.registered_subject.relative_identifier)
 
     if visit_instance.appointment.visit_definition.code in visit:
@@ -194,7 +194,7 @@ class PeripartumRuleGroup(RuleGroup):
             consequence='new',
             alternative='none'),
         target_model=[('eit_lab', 'infantrequisition')],
-        target_requisition_panels=['Chemistry NVP/LFT + ALPL6 (ARV)', ], )
+        target_requisition_panels=['BHP074 Chemistry', ], )
 
     """Ensures a Viral Load blood draw requisition for the right visits"""
     peri_vl = RequisitionRule(
@@ -231,7 +231,7 @@ class PeripartumRuleGroup(RuleGroup):
             alternative='none'),
         target_model=[('eit_lab', 'infantrequisition')],
         target_requisition_panels=['PBMC Plasma (STORE ONLY)', ], )
-    
+
     """Ensures a elisa blood draw requisition for the right visits"""
     peri_elisa = RequisitionRule(
         logic=Logic(
@@ -339,7 +339,7 @@ class ControlRuleGroup(RuleGroup):
             alternative='none'),
         target_model=[('eit_lab', 'infantrequisition')],
         target_requisition_panels=['Viral Load', ], )
-    
+
     """Ensures a CD4 blood draw requisition for the right visits"""
     ctrl_cd4 = RequisitionRule(
         logic=Logic(
@@ -348,7 +348,7 @@ class ControlRuleGroup(RuleGroup):
             alternative='none'),
         target_model=[('eit_lab', 'infantrequisition')],
         target_requisition_panels=['CD4 (ARV)', ], )
-    
+
     """Ensures a PBMC blood draw requisition for the right visits"""
     ctrl_pbmc = RequisitionRule(
         logic=Logic(
