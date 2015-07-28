@@ -1,0 +1,62 @@
+[
+  {
+    "pk": "117995d6-d489-11e0-9c1e-001d72b88a3a", 
+    "model": "bhp_describer.groupinghint", 
+    "fields": {
+      "hostname_created": "home", 
+      "created": "2011-09-01 12:56:38", 
+      "user_modified": "", 
+      "modified": "2011-09-01 12:56:38", 
+      "hostname_modified": "home", 
+      "app_label": "mpepu_infant_rando", 
+      "user_created": "erikvw", 
+      "field_name": "haart_status", 
+      "model_name": "infantrando"
+    }
+  }, 
+  {
+    "pk": "23264702-d489-11e0-9c1e-001d72b88a3a", 
+    "model": "bhp_describer.groupinghint", 
+    "fields": {
+      "hostname_created": "home", 
+      "created": "2011-09-01 12:57:08", 
+      "user_modified": "", 
+      "modified": "2011-09-01 12:57:08", 
+      "hostname_modified": "home", 
+      "app_label": "mpepu_infant_rando", 
+      "user_created": "erikvw", 
+      "field_name": "site", 
+      "model_name": "infantrando"
+    }
+  }, 
+  {
+    "pk": "558b4e54-d489-11e0-9c1e-001d72b88a3a", 
+    "model": "bhp_describer.groupinghint", 
+    "fields": {
+      "hostname_created": "home", 
+      "created": "2011-09-01 12:58:33", 
+      "user_modified": "", 
+      "modified": "2011-09-01 12:58:33", 
+      "hostname_modified": "home", 
+      "app_label": "bhp_registration", 
+      "user_created": "erikvw", 
+      "field_name": "subject_type", 
+      "model_name": "registeredsubject"
+    }
+  }, 
+  {
+    "pk": "ecdd2d6e-d488-11e0-9c1e-001d72b88a3a", 
+    "model": "bhp_describer.groupinghint", 
+    "fields": {
+      "hostname_created": "home", 
+      "created": "2011-09-01 12:55:37", 
+      "user_modified": "", 
+      "modified": "2011-09-01 12:55:37", 
+      "hostname_modified": "home", 
+      "app_label": "mpepu_infant_rando", 
+      "user_created": "erikvw", 
+      "field_name": "stratum", 
+      "model_name": "infantrando"
+    }
+  }
+]

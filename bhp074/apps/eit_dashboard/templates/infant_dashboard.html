@@ -1,0 +1,39 @@
+{% extends "base_registered_subject_dashboard.html"%}
+{% load common_tags %}{% load crypto_tags %}
+
+{% block clinic_dashboard_marquee %}
+    {% if infant_birth%}
+    <table>
+    <tr style="background:lightyellow;">
+    <td><B>Name:</B> {{infant_birth.first_name|encrypted }} ({{ infant_birth.initials|encrypted }})</td>  
+    <td><B>Gender:</B> {{infant_birth.gender|gender }} </td> 
+    <td><B>Born:</B> {{infant_birth.dob|date:"Y-m-d" }}</td> 
+    <td><B>Age:</B> {% if infant_birth.dob %}{{infant_birth.dob|age }}{% endif %} </td> 
+        {% if days_alive %}
+            <td>[ <B>DoL:</B> {{ days_alive }} ]</td> 
+        {% endif %}
+    {% else %}
+    <td><B>Name:</B> BABY-{{maternal_consent.first_name|encrypted}}</td> 
+    {% endif %}
+
+    </tr>
+    </table>
+    {% if infant_birth %}
+        {% if not infant_birth.dob == delivery_date %}
+            <font color="red"><B>Warning! infant DoB not equal to delivery_date of {{ delivery_date }}. Contact DMC.</B></font>
+        {% endif %}
+    {% endif %}                
+{% endblock %}
+
+
+
+{% if maternal_consent %}
+    {% block maternal_consent %}
+    <tr name="top right"><td>
+    <H3>Mother</H3>
+        <ul><A href="{% url 'subject_dashboard_url' dashboard_type='maternal' dashboard_model='maternal_consent' dashboard_id=maternal_consent.pk show='appointments' %}">{{ maternal_consent.subject_identifier }} [{{ maternal_consent.initials|encrypted }}]</A>
+    </td></tr>
+    {% endblock maternal_consent %}
+{% endif %}
+
+
