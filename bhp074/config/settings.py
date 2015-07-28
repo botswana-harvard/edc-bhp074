@@ -6,7 +6,7 @@ import sys
 import logger
 
 from .installed_apps import DJANGO_APPS, THIRD_PARTY_APPS, EDC_APPS, LIS_APPS, LOCAL_APPS
-
+from .private_settings import Eit
 
 DEBUG = False
 INTERNAL_IPS = ('127.0.0.1',)
@@ -42,34 +42,13 @@ KEY_PATH = '/home/django/source/bhp074_project/bhp074/keys'
 MAP_DIR = STATIC_ROOT.child('img')
 
 MANAGERS = ADMINS
-testing_db_name = 'sqlite'
 if 'test' in sys.argv:
-    # make tests faster
     SOUTH_TESTS_MIGRATE = False
-    if testing_db_name == 'sqlite':
-        DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.sqlite3',
-                'NAME': 'default',
-                'USER': 'root',
-                'PASSWORD': 'cc3721b',
-                'HOST': '',
-                'PORT': ''},
-        }
-    else:
-        DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.mysql',
-                'OPTIONS': {
-                    'init_command': 'SET storage_engine=INNODB',
-                },
-                'NAME': 'test_default',
-                'USER': 'root',
-                'PASSWORD': 'cc3721b',
-                'HOST': '',
-                'PORT': '',
-            },
-        }
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': 'default'},
+    }
 else:
     DATABASES = {
         'default': {
@@ -77,9 +56,9 @@ else:
             'OPTIONS': {
                 'init_command': 'SET storage_engine=INNODB',
             },
-            'NAME': 'bhp074',
-            'USER': 'root',
-            'PASSWORD': 'cc3721b',
+            'NAME': Eit.database,
+            'USER': Eit.user,
+            'PASSWORD': Eit.password,
             'HOST': '',
             'PORT': '',
         },
@@ -88,11 +67,11 @@ else:
             'OPTIONS': {
                 'init_command': 'SET storage_engine=INNODB',
             },
-            'NAME': 'lab',
-            'USER': 'root',
-            'PASSWORD': 'cc3721b',
-            'HOST': 'bhhrl.bhp.org.bw',
-            'PORT': '3306',
+            'NAME': Eit.lab_database,
+            'USER': Eit.lab_user,
+            'PASSWORD': Eit.lab_password,
+            'HOST': Eit.lab_host,
+            'PORT': Eit.lab_port,
         },
     }
 
