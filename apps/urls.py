@@ -1,3 +1,6 @@
+import django_databrowse
+from dajaxice.core import dajaxice_autodiscover, dajaxice_config
+
 from django.conf import settings
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
@@ -5,7 +8,6 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.db.models import get_models
 from django.views.generic import RedirectView
-import django_databrowse
 
 from edc.dashboard.section.classes import site_sections
 from edc.dashboard.subject.views import additional_requisition
@@ -18,9 +20,7 @@ from apps.eit import EitAppConfiguration
 
 admin.autodiscover()
 site_lab_profiles.autodiscover()
-
 dajaxice_autodiscover()
-
 EitAppConfiguration().prepare()
 site_visit_schedules.autodiscover()
 site_visit_schedules.build_all()
