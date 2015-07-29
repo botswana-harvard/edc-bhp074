@@ -1,0 +1,38 @@
+{% extends "base_registered_subject_dashboard.html"%}
+{% load common_tags %}{% load crypto_tags%}
+
+{% block clinic_dashboard_marquee %}
+<table>
+<tr style="background:lightyellow;">
+<td><B>Name:</B> {{maternal_consent.first_name|encrypted }} ({{ maternal_consent.initials|encrypted }}) </td>
+<td><B>Gender:</B> {{maternal_consent.gender|gender }}</td> 
+<td><B>Born:</B> {{maternal_consent.dob|date:"Y-m-d" }}</td> 
+<td><B>Age:</B> {{maternal_consent.dob|age }}</td>
+<td><B>Consented:</B> {{maternal_consent.consent_datetime|date:"Y-m-d H:i" }}</td>
+{% if delivery_datetime %}
+    <td><B>Delivered:</B> {{delivery_datetime|date:"Y-m-d" }}</td>
+{% endif %}
+<td><b>Status:</b> {{ subject_hiv_status }}</td>
+</tr>
+</table>
+{% endblock %}
+
+{% block infants %}
+    <tr name="top right"><td>
+    <H3>Infants/Children</H3>
+    {% if infants %}
+        <ol>
+        {% for subject_identifier,infant in infants.iteritems %}
+            <li><A href="{% url 'subject_dashboard_url' dashboard_type='infant' dashboard_model='infant_birth_record' dashboard_id=infant.dashboard_id show='appointments' %}">{{ subject_identifier }} {{ infant.gender }} {{ infant.first_name|encrypted }}</A>
+        {% endfor %}
+        </ol>        
+    {% else %}    
+        no infants
+    {% endif %}
+
+    </td></tr>
+{% endblock infants %} 
+
+{% block scheduled_lab_bucket %}
+{% endblock scheduled_lab_bucket %}    
+

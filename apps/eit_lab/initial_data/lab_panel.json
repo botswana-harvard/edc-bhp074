@@ -1,0 +1,3397 @@
+[
+  {
+    "pk": 1, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "101", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "106", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "201", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "202", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "203", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "205", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "206", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "207", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "208", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "209", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "210", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "212", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "301", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "302", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "303", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "304", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "305", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "306", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "307", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "308", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "309", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "310", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "330", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "401", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "402", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "403", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "404", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "405", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "411", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "420", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "430", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "501", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "502", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "503", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "575", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "601", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "602", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "605", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "610", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "650", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "702", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "705", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "720", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "730", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "731", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "801", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "802", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "830", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "840", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "850", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "900", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "902", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "903", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "904", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "909", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "910", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "930", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "940", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "941", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "942", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "943", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "944", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "945", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "950", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "951", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "954", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "965", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "973", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "lab_panel.panelgroup", 
+    "fields": {
+      "hostname_created": "s007", 
+      "name": "980", 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "user_created": ""
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Comprehensive Chemistry", 
+      "aliquot_type": [
+        348
+      ], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "django", 
+      "modified": "2011-05-16 12:50:10", 
+      "hostname_modified": "s007", 
+      "test_code": [
+        8, 
+        91, 
+        9, 
+        10, 
+        12, 
+        18, 
+        17, 
+        19, 
+        20, 
+        29, 
+        25, 
+        30
+      ], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "142052"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "CD4 (ARV)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 1, 
+      "user_created": "", 
+      "dmis_panel_identifier": "142218"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "PHM Viral load (amplicore >400)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 24, 
+      "user_created": "", 
+      "dmis_panel_identifier": "142230"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Hepatitis B / RPR", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 47, 
+      "user_created": "", 
+      "dmis_panel_identifier": "148717"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chemistry Baseline (ARV)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "148767"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Hepatitis B only", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 42, 
+      "user_created": "", 
+      "dmis_panel_identifier": "148856"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Syphillis RPR only", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 46, 
+      "user_created": "", 
+      "dmis_panel_identifier": "148862"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Hematology (ARV)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 13, 
+      "user_created": "", 
+      "dmis_panel_identifier": "148884"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chemistry NVP/LFT + ALPL6 (ARV)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "148923"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chemistry Baseline + ALPL6 (ARV)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "149044"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chemistry NVP/LFT", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 19, 
+      "user_created": "", 
+      "dmis_panel_identifier": "149066"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "ELISA", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 3, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2838443"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "DNA PCR", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 4, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2838465"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "RT-PCR", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 26, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2838487"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Viral load (storage only)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 30, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2838504"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Genotypic resistence (STORE ONLY)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 36, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2838671"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Realtime gentoypic resistence test", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 37, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2838687"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP059 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2852445"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP011 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2852784"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Basic Chemistry + Glucose", 
+      "aliquot_type": [
+        325, 
+        348
+      ], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "smoyo", 
+      "modified": "2011-05-17 13:26:21", 
+      "hostname_modified": "s007", 
+      "test_code": [
+        8, 
+        91, 
+        9, 
+        10, 
+        12, 
+        11, 
+        18, 
+        17, 
+        20, 
+        21, 
+        29, 
+        25, 
+        30, 
+        36
+      ], 
+      "panel_group": 15, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2853049"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Special Chemistry (LACT)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 20, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2853227"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chemistry CPLX/TRSF/FERR etc.", 
+      "aliquot_type": [
+        348
+      ], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "django", 
+      "modified": "2011-05-16 12:48:53", 
+      "hostname_modified": "s007", 
+      "test_code": [
+        8, 
+        91, 
+        9, 
+        10, 
+        12
+      ], 
+      "panel_group": 16, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2853499"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP004 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2853500"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP007 Special Chemistry (GLUC)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 18, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2853538"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP007 Lipodistrophy", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 16, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2853544"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "PBMC Plasma (STORE ONLY)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 38, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2855025"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Viral Load (TaqMan HIM-CAP)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 27, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2859782"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "UB-MSU Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2859859"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP007 Comprehensive Chemistry + LIPO (2004)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 15, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2864024"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Hepatitis C", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 41, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2873417"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Viral Load (NucliSens EasyQ)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 28, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2873801"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Urinalysis", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 43, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891148"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Detuned Elisa", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 6, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891160"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "HLA Typing", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 40, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891182"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Urine Pregnancy Test", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 44, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891198"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chlamydia/Gonorrhoea", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 48, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891237"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "DNA PCR (Store only)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 12, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891243"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Serum Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 51, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891259"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Micronutrient Assay (STORE ONLY)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 68, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891265"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Cervical Vagina Lavage (Storage only)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 61, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891287"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "HSV-2 DNA (STORE ONLY)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 8, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891293"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Cell surface markers (CCR5, CXCR4)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 11, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891304"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Endo-cervical swab - HSV-2 (Storage only)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 60, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2891326"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP016 Basic Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2894928"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Infant PK Blood Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 52, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2910736"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Breast Milk (Storage)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 57, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2917623"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Maternal PK Stored (Whole Blood)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 53, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2917645"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "PHS Ultrasensitive Viral Load (>50)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 25, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2917706"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP011: Micronutrient Assay (Stored)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 68, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2917740"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP016 Immunology storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 31, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2922282"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Infant Basic Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 15, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2925767"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Basic Chemistry + LIPIDS", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 17, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2925789"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Endo-cervical swab - HIV (Storage)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 59, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926216"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP017 Basic Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926250"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "HSV-2 ELISA", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 7, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926361"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Syphillis RPR / Hepatitis B", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 47, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926383"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP016 Lipodistrophy Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 16, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926450"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Bana 01 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926472"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP019 Basic Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 17, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926488"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Basic Chemistry 305", 
+      "aliquot_type": [
+        348
+      ], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "erikvw", 
+      "modified": "2011-05-17 10:25:34", 
+      "hostname_modified": "s007", 
+      "test_code": [
+        6
+      ], 
+      "panel_group": 17, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926616"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Rapid Elisa", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 5, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2926838"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Lactate (Portable)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 22, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2927460"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Pharmacokinetics Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 35, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2929135"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Micronutrient (Albumin) Store Only", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 69, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2929446"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Resistance sample", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 32, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2929452"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Maternal PK Stored (Breast Milk)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 54, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2929563"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chromosonal Analysis", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 11, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2933928"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "WB Research Sample", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 39, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2935493"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP007 Resistance sample", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 36, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2936869"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP023  HEMATOLOGY", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 13, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2937980"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP023 CHEMISTRY", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2938001"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "MTB Dx on Aspirated Fluid", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 55, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2938089"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "MTB Dx on Inducted Sputum", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 56, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2938095"
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP030 Comprehensive Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 21, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2940585"
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP030 Special Chemistry (LACT/GLUC)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 22, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2940846"
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP017 Special Chemistry LIPIDS", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 16, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2942999"
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP017 Chemistry LFT", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 17, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2943004"
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHPTEST Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2944208"
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP026 Basic Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 23, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2944731"
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Special Chemistry: Glucose", 
+      "aliquot_type": [
+        322, 
+        348
+      ], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "smoyo", 
+      "modified": "2011-05-17 13:28:43", 
+      "hostname_modified": "s007", 
+      "test_code": [
+        21
+      ], 
+      "panel_group": 16, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2944836"
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP026 Comprehensive Chemistry + Lipids", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 15, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2945018"
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP026 Special Chemistry: Lipids", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 17, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2945046"
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Syphillis RPR only (2)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 46, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2945329"
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP029 Basic Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2945391"
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP029 Special Chemistry: Glucose", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 15, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2945418"
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Haematology (Morphology Studies)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 18, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2946878"
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP032 chem+LFTs", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 15, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2946890"
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP032 chem", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2946901"
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP032 LFTs", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2946917"
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP033 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2947799"
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "HIV elisa", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 3, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2948010"
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Viral Load storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 28, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2948254"
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Endo Cervical  Swab -PCR(GC/CT)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 62, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2948715"
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Cervical Secretions (HIV RNA -Storage)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 66, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2948721"
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "testing", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 2, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2948771"
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP032 Semen Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 64, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2949242"
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP029 Special Chemistry: Lipids", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 16, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2949286"
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP026 Comprehensive Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2949420"
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "DNA-PCR", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 4, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2950005"
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "PHS: Ultrasensetive Viral Load", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 25, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2950055"
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "PHS Ultrasensetive Viral Load", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 25, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2950061"
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Multiplex PCR Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 34, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2950144"
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Mycobacterium TB", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 58, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2951732"
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "INFANT HIV PCR", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 4, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2952619"
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "HIV Western Blot", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 8, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2953635"
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Antirotavirus Antibody", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 9, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2955150"
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": " Rotavirus Stool Sample (Storage)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 10, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2955172"
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Dried Blood Spot (Storage)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 11, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2955188"
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Stool Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 67, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2955261"
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Placental sample", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 65, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2955916"
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP035 Chemistry+Lipids", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2956837"
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Oral Swab Candidiasis ", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 50, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2957770"
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Urine Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 45, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2957786"
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Whole Blood Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 39, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2957792"
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP046 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2957803"
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP047 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2957819"
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "DBS Viral Load", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 29, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2958213"
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP049 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2958879"
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Inflammatory/Thrombogenic Markers", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 39, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2959328"
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Barc Chemistry (Outsourced)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2959673"
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Confirmatory Viral Load", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 28, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2960147"
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP053 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2960725"
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Genotypic Resistance ", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 33, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2961280"
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP038 Maternal Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2961541"
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP038 Infant Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 15, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2961579"
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP050 Chemistry", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 14, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2962395"
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Alpha-1 Acid Glycoprotein", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 19, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2962490"
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP050 SPECIAL CHEMISTRY (GLUCOSE)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 16, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2962501"
+    }
+  }, 
+  {
+    "pk": 129, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Infant DNA PCR (DBS)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 11, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2962989"
+    }
+  }, 
+  {
+    "pk": 130, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Chlamydia Trachomatis/Neisseria Gonorrhoea", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 48, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2965214"
+    }
+  }, 
+  {
+    "pk": 131, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Whole Blood Storage 903", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 53, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2966024"
+    }
+  }, 
+  {
+    "pk": 132, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Maternal Blood Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 53, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2966052"
+    }
+  }, 
+  {
+    "pk": 133, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Cord Blood Storage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 65, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2966068"
+    }
+  }, 
+  {
+    "pk": 134, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "BHP038:Plasma and Buffy Coat (STORAGE)", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 68, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2967078"
+    }
+  }, 
+  {
+    "pk": 135, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Cervico Vaginal Lavage", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 61, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2967884"
+    }
+  }, 
+  {
+    "pk": 136, 
+    "model": "lab_panel.panel", 
+    "fields": {
+      "comment": "", 
+      "hostname_created": "s007", 
+      "name": "Vaginal Secretions", 
+      "aliquot_type": [], 
+      "created": "2011-05-06 15:58:19", 
+      "user_modified": "", 
+      "modified": "2011-05-06 15:58:19", 
+      "hostname_modified": "s007", 
+      "test_code": [], 
+      "panel_group": 63, 
+      "user_created": "", 
+      "dmis_panel_identifier": "2967901"
+    }
+  }
+]
