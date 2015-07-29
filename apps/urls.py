@@ -19,11 +19,12 @@ from django.contrib import admin
 
 admin.autodiscover()
 site_lab_profiles.autodiscover()
+
 from dajaxice.core import dajaxice_autodiscover, dajaxice_config
 dajaxice_autodiscover()
 
-from apps.eit.eit_app_configuration.classes import EitAppConfiguration
-# 
+from apps.eit import EitAppConfiguration
+
 EitAppConfiguration().prepare()
 site_visit_schedules.autodiscover()
 site_visit_schedules.build_all()
