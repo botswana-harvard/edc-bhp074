@@ -71,6 +71,6 @@ EDC_APPS = (
     'edc.subject.subject_summary',
     'edc.subject.visit_schedule',
     'edc.subject.visit_tracking',
- 
+
     'edc.testing',
 )

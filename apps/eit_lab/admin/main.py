@@ -34,9 +34,9 @@ admin.site.register(InfantRequisition, InfantRequisitionAdmin)
 
 
 class PackingListAdmin(BasePackingListAdmin):
-    fields = ('list_datetime','list_items', 'list_comment',)
+    fields = ('list_datetime', 'list_items', 'list_comment')
     form = PackingListForm
-    requisition = [InfantRequisition, MaternalRequisition, Aliquot ]
+    requisition = [InfantRequisition, MaternalRequisition, Aliquot]
     packing_list_item_model = PackingListItem
 admin.site.register(PackingList, PackingListAdmin)
 
@@ -94,6 +94,7 @@ class AliquotProcessingAdmin(BaseProcessingAdmin):
     list_filter = ('profile', 'created', 'modified', 'user_created', 'user_modified')
 
 admin.site.register(AliquotProcessing, AliquotProcessingAdmin)
+
 
 class ReceiveAdmin(BaseModelAdmin):
 

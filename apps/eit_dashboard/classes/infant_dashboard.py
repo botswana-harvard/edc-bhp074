@@ -88,7 +88,7 @@ class InfantDashboard(DashboardMixin, RegisteredSubjectDashboard):
         elif self.registered_subject:
             try:
                 self._infant_birth = InfantBirth.objects.get(registered_subject=self.registered_subject)
-            except Exception as e:
+            except Exception:
                 self._infant_birth = InfantBirth.objects.none()
         else:
             self._infant_birth = InfantBirth.objects.none()

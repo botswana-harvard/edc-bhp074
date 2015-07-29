@@ -47,7 +47,7 @@ class MaternalDashboard(DashboardMixin, RegisteredSubjectDashboard):
             title='Maternal Dashboard',
             delivery_datetime=self.get_delivery_datetime(),
             maternal_consent=self.consent
-            )
+        )
         return self.context
 
     @property

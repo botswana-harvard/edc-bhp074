@@ -25,33 +25,35 @@ class EitAppConfiguration(BaseAppConfiguration):
 
     global_configuration = {'dashboard': {'show_not_required_metadata': False, 'allow_additional_requisitions': False, 'show_drop_down_requisitions': True},
                             'appointment': {'allowed_iso_weekdays': '12345', 'use_same_weekday': True, 'default_appt_type': 'default'},
-                                 }
+    }
 
     study_variables_setup = {
-                'protocol_number': 'BHP074',
-                'protocol_code': '074',
-                'protocol_title': 'BHP074',
-                'research_title': 'BHP074',
-                'study_start_datetime': study_start_datetime,
-                'minimum_age_of_consent': 16,
-                'maximum_age_of_consent': 64,
-                'gender_of_consent': 'F',
-                'subject_identifier_seed': '10000',
-                'subject_identifier_prefix': '074',
-                'subject_identifier_modulus': '7',
-                'subject_type': 'subject',
-                'machine_type': 'SERVER',
-                'hostname_prefix': 's007',
-                'device_id': '0'}
+        'protocol_number': 'BHP074',
+        'protocol_code': '074',
+        'protocol_title': 'BHP074',
+        'research_title': 'BHP074',
+        'study_start_datetime': study_start_datetime,
+        'minimum_age_of_consent': 16,
+        'maximum_age_of_consent': 64,
+        'gender_of_consent': 'F',
+        'subject_identifier_seed': '10000',
+        'subject_identifier_prefix': '074',
+        'subject_identifier_modulus': '7',
+        'subject_type': 'subject',
+        'machine_type': 'SERVER',
+        'hostname_prefix': 's007',
+        'device_id': '0'
+    }
 
     v1_consent_catalogue_setup = {
-                'name': 'eit',
-                'content_type_map': 'maternalconsent',
-                'consent_type': 'study',
-                'version': 1,
-                'start_datetime': study_start_datetime,
-                'end_datetime': study_end_datetime,
-                'add_for_app': 'eit_maternal'}
+        'name': 'eit',
+        'content_type_map': 'maternalconsent',
+        'consent_type': 'study',
+        'version': 1,
+        'start_datetime': study_start_datetime,
+        'end_datetime': study_end_datetime,
+        'add_for_app': 'eit_maternal'
+    }
 
     study_site_setup = [{'site_name': 'Gaborone', 'site_code': '4'},
                         {'site_name': 'Francistown', 'site_code': '6'},
@@ -77,41 +79,41 @@ class EitAppConfiguration(BaseAppConfiguration):
                          ]}
 
     lab_setup = {'eit': {
-                    'destination': [DestinationTuple('BHHRL', 'Botswana-Harvard HIV Reference Laboratory',
-                                                  'Gaborone', '3902671', 'bhhrl@bhp.org.bw'),],
-                    'panel': [
-                              PanelTuple('Viral Load', 'TEST', 'WB'),
-                              PanelTuple('Hematology (ARV)', 'TEST', 'WB'),
-                              PanelTuple('PBMC Plasma (STORE ONLY)', 'STORAGE', 'WB'),
-                              PanelTuple('CD4 (ARV)', 'TEST', 'WB'),
-                              PanelTuple('Chemistry NVP/LFT + ALPL6 (ARV)', 'TEST', 'WB'),
-                              PanelTuple('DNA PCR', 'TEST', 'WB'),
-                              PanelTuple('ELISA', 'TEST', 'WB'),
-                              PanelTuple('Pharmacokinetics', 'TEST', 'WB'),
-                              PanelTuple('Plasma and Buffy Coat Storage', 'STORAGE', 'WB'),
-                              ],
-                    'aliquot_type': [AliquotTypeTuple('Whole Blood', 'WB', '02'),
-                                     AliquotTypeTuple('Serum', 'SERUM', '06'),
-                                     AliquotTypeTuple('Dried Blood Spot', 'DBS', '01'),
-                                     AliquotTypeTuple('Plasma', 'PL', '32'),
-                                     AliquotTypeTuple('Buffy Coat', 'BC', '16'),
+                'destination': [DestinationTuple('BHHRL', 'Botswana-Harvard HIV Reference Laboratory',
+                                              'Gaborone', '3902671', 'bhhrl@bhp.org.bw'),],
+                'panel': [
+                          PanelTuple('Viral Load', 'TEST', 'WB'),
+                          PanelTuple('Hematology (ARV)', 'TEST', 'WB'),
+                          PanelTuple('PBMC Plasma (STORE ONLY)', 'STORAGE', 'WB'),
+                          PanelTuple('CD4 (ARV)', 'TEST', 'WB'),
+                          PanelTuple('Chemistry NVP/LFT + ALPL6 (ARV)', 'TEST', 'WB'),
+                          PanelTuple('DNA PCR', 'TEST', 'WB'),
+                          PanelTuple('ELISA', 'TEST', 'WB'),
+                          PanelTuple('Pharmacokinetics', 'TEST', 'WB'),
+                          PanelTuple('Plasma and Buffy Coat Storage', 'STORAGE', 'WB'),
+                          ],
+                'aliquot_type': [AliquotTypeTuple('Whole Blood', 'WB', '02'),
+                                 AliquotTypeTuple('Serum', 'SERUM', '06'),
+                                 AliquotTypeTuple('Dried Blood Spot', 'DBS', '01'),
+                                 AliquotTypeTuple('Plasma', 'PL', '32'),
+                                 AliquotTypeTuple('Buffy Coat', 'BC', '16'),
 
-                                     ],
-                    'profile': [ProfileTuple('Viral load (storage only)','WB'),
-                                ProfileTuple('ARV Resistance Testing','WB'),
-                                ProfileTuple('Plasma and Buffy Coat Storage (Infant)','WB'),
-                                ProfileTuple('Plasma and Buffy Coat Storage (Maternal)','WB'),
-                                ],
-                    'profile_item': [ProfileItemTuple('Viral load (storage only)', 'PL', 1.8, 3),
-                                     ProfileItemTuple('Viral load (storage only)', 'BC', 0.5, 1),
-                                     ProfileItemTuple('ARV Resistance Testing','PL', 1.8, 3),
-                                     ProfileItemTuple('ARV Resistance Testing','BC', 0.5, 1),
-                                     ProfileItemTuple('Plasma and Buffy Coat Storage (Infant)','PL', 1.0, 1),
-                                     ProfileItemTuple('Plasma and Buffy Coat Storage (Infant)','BC', 0.2, 1),
-                                     ProfileItemTuple('Plasma and Buffy Coat Storage (Maternal)','PL', 1.8, 2),
-                                     ProfileItemTuple('Plasma and Buffy Coat Storage (Maternal)','BC', 0.5, 2),
-                                     ]
-                    }}
+                                 ],
+                'profile': [ProfileTuple('Viral load (storage only)','WB'),
+                            ProfileTuple('ARV Resistance Testing','WB'),
+                            ProfileTuple('Plasma and Buffy Coat Storage (Infant)','WB'),
+                            ProfileTuple('Plasma and Buffy Coat Storage (Maternal)','WB'),
+                            ],
+                'profile_item': [ProfileItemTuple('Viral load (storage only)', 'PL', 1.8, 3),
+                                 ProfileItemTuple('Viral load (storage only)', 'BC', 0.5, 1),
+                                 ProfileItemTuple('ARV Resistance Testing','PL', 1.8, 3),
+                                 ProfileItemTuple('ARV Resistance Testing','BC', 0.5, 1),
+                                 ProfileItemTuple('Plasma and Buffy Coat Storage (Infant)','PL', 1.0, 1),
+                                 ProfileItemTuple('Plasma and Buffy Coat Storage (Infant)','BC', 0.2, 1),
+                                 ProfileItemTuple('Plasma and Buffy Coat Storage (Maternal)','PL', 1.8, 2),
+                                 ProfileItemTuple('Plasma and Buffy Coat Storage (Maternal)','BC', 0.5, 2),
+                                 ]
+                }}
 
     labeling_setup = {'label_printer': [
                                         LabelPrinterTuple('ZebraT', 'fchilisa', '127.0.0.1', True),
@@ -147,21 +149,21 @@ class EitAppConfiguration(BaseAppConfiguration):
                                     ),
                                 True),
                         ZplTemplateTuple(
-                                'dispensing', (
-                                    """^XA
-                                    ^FO100,25^A0N,25^FDBotswana-Harvard Partnership - SID ${sid}^FS
-                                    ^FO100,50^BY2.0^BCN,50,N,N,N
-                                    ^BY^FD${barcode_value}^FS
-                                    ^FO100,120^A0N,20^FD${barcode_value}^FS
-                                    ^FO100,150^A0N,30^FD${subject_identifier} [${initials}]^FS
-                                    ^FO100,180^A0N,40^FD${treatment}^FS
-                                    ^FO100,220^A0N,35^FDDosage: ${dose}^FS
-                                    ^FO100,270^A0N,40^FD${packing_amount} ${packing_unit}^FS
-                                    ^FO100,330^A0N,30^FDdispensed on ${dispense_date} by ${user_created}^FS
-                                    ^XZ"""
-                                    ),
-                                True),
-                                     ],
+                            'dispensing', (
+                                """^XA
+                                ^FO100,25^A0N,25^FDBotswana-Harvard Partnership - SID ${sid}^FS
+                                ^FO100,50^BY2.0^BCN,50,N,N,N
+                                ^BY^FD${barcode_value}^FS
+                                ^FO100,120^A0N,20^FD${barcode_value}^FS
+                                ^FO100,150^A0N,30^FD${subject_identifier} [${initials}]^FS
+                                ^FO100,180^A0N,40^FD${treatment}^FS
+                                ^FO100,220^A0N,35^FDDosage: ${dose}^FS
+                                ^FO100,270^A0N,40^FD${packing_amount} ${packing_unit}^FS
+                                ^FO100,330^A0N,30^FDdispensed on ${dispense_date} by ${user_created}^FS
+                                ^XZ"""
+                            ),
+                            True),
+                        ],
                       }
 
     consent_catalogue_list = [v1_consent_catalogue_setup,]

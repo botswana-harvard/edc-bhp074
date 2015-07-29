@@ -1,4 +1,3 @@
-
 SITE_IDENTIFIERS = (
     (4, 'Gaborone'),
     (1, 'Molepolole'),
