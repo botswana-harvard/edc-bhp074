@@ -1,5 +1,4 @@
 from django.db import models
-from django.core.exceptions import ValidationError
 from django.core.urlresolvers import reverse
 
 from edc.subject.registration.models import RegisteredSubject
@@ -16,17 +15,23 @@ from .maternal_requisition import MaternalRequisition
 
 class Aliquot(BaseAliquot):
 
-    receive = models.ForeignKey(Receive,
-        editable=False)
+    receive = models.ForeignKey(
+        Receive,
+        editable=False
+    )
 
-    aliquot_type = models.ForeignKey(AliquotType,
+    aliquot_type = models.ForeignKey(
+        AliquotType,
         verbose_name="Aliquot Type",
-        null=True)
+        null=True
+    )
 
-    aliquot_condition = models.ForeignKey(AliquotCondition,
+    aliquot_condition = models.ForeignKey(
+        AliquotCondition,
         verbose_name="Aliquot Condition",
         null=True,
-        blank=True)
+        blank=True
+    )
 
     objects = AliquotManager()
 
@@ -50,32 +55,40 @@ class Aliquot(BaseAliquot):
         from apps.eit_infant.models import InfantVisit
         visit = self.get_visit_model()
         if visit == InfantVisit:
-            requisition = InfantRequisition.objects.get(requisition_identifier=self.aliquot_identifier[4:-4])
+            requisition = InfantRequisition.objects.get(
+                requisition_identifier=self.aliquot_identifier[4:-4]
+            )
             return requisition.infant_visit
         else:
-            requisition = MaternalRequisition.objects.get(requisition_identifier=self.aliquot_identifier[4:-4])
+            requisition = MaternalRequisition.objects.get(
+                requisition_identifier=self.aliquot_identifier[4:-4]
+            )
             return requisition.maternal_visit
         return visit
 
     def get_visit_model(self):
         from apps.eit_infant.models import InfantVisit
         from apps.eit_maternal.models import MaternalVisit
-        registered_subject = RegisteredSubject.objects.get(subject_identifier=self.subject_identifier)
+        registered_subject = RegisteredSubject.objects.get(
+            subject_identifier=self.subject_identifier
+        )
         if registered_subject.subject_type.lower() == 'infant':
             return InfantVisit
         else:
             return MaternalVisit
 
     def panel(self):
-        registered_subject = RegisteredSubject.objects.get(subject_identifier=self.subject_identifier)
+        registered_subject = RegisteredSubject.objects.get(
+            subject_identifier=self.subject_identifier
+        )
         if registered_subject.subject_type.lower() == 'infant':
             requisition = InfantRequisition.objects.get(
                 requisition_identifier=self.receive.requisition_identifier
-                )
+            )
         else:
             requisition = MaternalRequisition.objects.get(
                 requisition_identifier=self.receive.requisition_identifier
-                )
+            )
         aliquot_panel = requisition.panel
         return '{}'.format(aliquot_panel)
     panel.allow_tags = True

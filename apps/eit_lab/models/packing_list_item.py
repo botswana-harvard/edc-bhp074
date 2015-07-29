@@ -14,14 +14,17 @@ class PackingListItem(BasePackingListItem):
 
     packing_list = models.ForeignKey(PackingList, null=True)
 
-    panel = models.ForeignKey(Panel,
+    panel = models.ForeignKey(
+        Panel,
         null=True,
         blank=True,
-        )
+    )
 
     def get_subject_type(self):
         aliquot = Aliquot.objects.get(aliquot_identifier=self.item_reference)
-        registered_subject = RegisteredSubject.objects.get(subject_identifier=aliquot.subject_identifier)
+        registered_subject = RegisteredSubject.objects.get(
+            subject_identifier=aliquot.subject_identifier
+        )
         return registered_subject.subject_type.lower()
 
     def save(self, *args, **kwargs):
@@ -30,11 +33,11 @@ class PackingListItem(BasePackingListItem):
             if self.get_subject_type() == 'infant':
                 requisition = InfantRequisition.objects.get(
                     requisition_identifier=aliquot.receive.requisition_identifier
-                    )
+                )
             else:
                 requisition = MaternalRequisition.objects.get(
                     requisition_identifier=aliquot.receive.requisition_identifier
-                    )
+                )
             self.panel = requisition.panel
             self.item_priority = requisition.priority
         super(PackingListItem, self).save(*args, **kwargs)
@@ -46,14 +49,14 @@ class PackingListItem(BasePackingListItem):
             if self.get_subject_type() == 'infant':
                 requisition = InfantRequisition.objects.get(
                     requisition_identifier=aliquot.receive.requisition_identifier
-                    )
+                )
             else:
                 requisition = MaternalRequisition.objects.get(
                     requisition_identifier=aliquot.receive.requisition_identifier
-                    )
+                )
             retval = requisition.drawn_datetime
         return retval
- 
+
     def clinician(self):
         retval = "n/a"
         if self.item_reference:
@@ -61,11 +64,11 @@ class PackingListItem(BasePackingListItem):
             if self.get_subject_type() == 'infant':
                 requisition = InfantRequisition.objects.get(
                     requisition_identifier=aliquot.receive.requisition_identifier
-                    )
+                )
             else:
                 requisition = MaternalRequisition.objects.get(
                     requisition_identifier=aliquot.receive.requisition_identifier
-                    )
+                )
             retval = requisition.user_created
         return retval
 

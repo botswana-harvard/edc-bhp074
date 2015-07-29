@@ -14,7 +14,7 @@ class RequisitionLabel(ModelLabel):
 
     def test(self, client_addr, label_printer=None):
         """Passes a test label the printer.
- 
+
         Accepts arg client_addr (hostname or ip)."""
         custom = {}
         custom.update({

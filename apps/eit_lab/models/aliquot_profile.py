@@ -9,8 +9,10 @@ from apps.eit_lab.models import AliquotType
 
 class AliquotProfile(BaseProfile):
 
-    aliquot_type = models.ForeignKey(AliquotType,
-        verbose_name='Source aliquot type')
+    aliquot_type = models.ForeignKey(
+        AliquotType,
+        verbose_name='Source aliquot type'
+    )
 
 #     objects = ProfileManager()
 

@@ -12,8 +12,6 @@ from .panel import Panel
 from .aliquot_type import AliquotType
 
 
-
-
 class InfantRequisition(BaseClinicRequisition):
 
     infant_visit = models.ForeignKey(InfantVisit)
@@ -33,7 +31,9 @@ class InfantRequisition(BaseClinicRequisition):
 
     def aliquot(self):
         url = reverse('admin:eit_lab_aliquot_changelist')
-        return """<a href="{url}?q={requisition_identifier}" />aliquot</a>""".format(url=url, requisition_identifier=self.requisition_identifier)
+        return """<a href="{url}?q={requisition_identifier}" />aliquot</a>""".format(
+            url=url, requisition_identifier=self.requisition_identifier
+        )
     aliquot.allow_tags = True
 
     class Meta:

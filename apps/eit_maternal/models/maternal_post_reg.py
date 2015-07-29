@@ -1,11 +1,10 @@
-from datetime import datetime, time
+from datetime import datetime
 from django.db import models
 from django.core.urlresolvers import reverse
 
 from edc.audit.audit_trail import AuditTrail
 from edc.base.model.validators import datetime_not_future
 from edc.core.identifier.classes import CheckDigit
-from edc.core.identifier.classes import InfantIdentifier
 from edc.subject.registration.models import BaseRegisteredSubjectModel
 from edc.subject.registration.models import RegisteredSubject
 
@@ -23,12 +22,12 @@ class MaternalPostReg(BaseRegisteredSubjectModel):
         help_text="If TIME unknown, estimate",
         validators=[
             datetime_not_future, ],
-        )
+    )
 
     live_infants_to_register = models.IntegerField(
         verbose_name="How many babies are registering to the study? ",
         help_text="",
-        )
+    )
 
     history = AuditTrail()
 
@@ -39,20 +38,22 @@ class MaternalPostReg(BaseRegisteredSubjectModel):
         """Registers infant(s) using the bhp_identifier class which allocates identifiers and creates registered_subject instances.
 
         Called on the post_save signal"""
-        protocol="074"
+        protocol = "074"
         i_indicator = "1"
         check = CheckDigit()
         consent = MaternalConsent.objects.get(subject_identifier=self.registered_subject.subject_identifier)
         if created:
             seq = consent.subject_identifier[6:-4]
-            check_digit = check.calculate(int(protocol+str(seq)+i_indicator), modulus=7)
-            if consent.cohort=='antepartum':
+            check_digit = check.calculate(int(
+                protocol + str(seq) + i_indicator), modulus=7
+            )
+            if consent.cohort == 'antepartum':
                 prefix = 'A'
-            elif consent.cohort=='peripartum':
+            elif consent.cohort == 'peripartum':
                 prefix = "P"
             else:
                 prefix = "C"
-            new_identifier = protocol+"-"+prefix+"-"+str(seq)+"-"+i_indicator+"-"+str(check_digit)
+            new_identifier = protocol + "-" + prefix + "-" + str(seq) + "-" + i_indicator + "-" + str(check_digit)
 
             RegisteredSubject.objects.create(
                 subject_identifier=new_identifier,

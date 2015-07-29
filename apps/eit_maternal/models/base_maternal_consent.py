@@ -1,6 +1,5 @@
 from edc.subject.consent.models import BaseConsent
 from edc.subject.consent.mixins.bw import IdentityFieldsMixin
-from edc.subject.consent.mixins import ReviewAndUnderstandingFieldsMixin
 
 # from .maternal_off_study_mixin import MaternalOffStudyMixin
 
@@ -22,8 +21,9 @@ class BaseMaternalConsent(BaseConsent):
     def get_result_value(self, attr=None):
         """Returns a result value for given attr name for the lab_tracker."""
         retval = None
-        if not attr in dir(self):
-            raise TypeError('Attribute {0} does not exist in model {1}'.format(attr, self._meta.object_name))
+        if attr not in dir(self):
+            raise TypeError('Attribute {0} does not exist in model {1}'.format(
+                attr, self._meta.object_name))
         if attr == 'is_hiv_positive':
             if self.is_hiv_positive.lower() == 'yes':
                 retval = 'POS'

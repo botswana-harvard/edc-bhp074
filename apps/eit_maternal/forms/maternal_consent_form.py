@@ -1,7 +1,6 @@
 from django import forms
-import re
 
-from edc.subject.consent.forms import BaseSubjectConsentForm, BaseConsentUpdateForm
+from edc.subject.consent.forms import BaseSubjectConsentForm
 
 from ..models import MaternalConsent
 

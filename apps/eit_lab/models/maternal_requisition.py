@@ -13,8 +13,6 @@ from .packing_list import PackingList
 from .panel import Panel
 
 
-
-
 class MaternalRequisition(BaseClinicRequisition):
 
     maternal_visit = models.ForeignKey(MaternalVisit)
@@ -34,7 +32,9 @@ class MaternalRequisition(BaseClinicRequisition):
 
     def aliquot(self):
         url = reverse('admin:eit_lab_aliquot_changelist')
-        return """<a href="{url}?q={requisition_identifier}" />aliquot</a>""".format(url=url, requisition_identifier=self.requisition_identifier)
+        return """<a href="{url}?q={requisition_identifier}" />aliquot</a>""".format(
+            url=url, requisition_identifier=self.requisition_identifier
+        )
     aliquot.allow_tags = True
 
     class Meta:
