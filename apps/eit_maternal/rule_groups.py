@@ -1,18 +1,15 @@
-from edc.constants import POS, NEG, IND
-
 from edc.subject.registration.models import RegisteredSubject
-from edc.subject.rule_groups.classes import (RuleGroup, site_rule_groups, ScheduledDataRule,
+from edc.subject.rule_groups.classes import (RuleGroup, site_rule_groups,
                                              Logic, RequisitionRule)
-from edc.subject.appointment.models import Appointment
 
-from .models import MaternalConsent
+# from .models import MaternalConsent
 
 
 def func_maternal_lab(visit_instance):
 
-    visit=['1000M']
+    visit = ['1000M']
 
-    maternal_id = MaternalConsent.objects.get(subject_identifier=visit_instance.registered_subject.subject_identifier)
+    # maternal_id = MaternalConsent.objects.get(subject_identifier=visit_instance.registered_subject.subject_identifier)
 
     if visit_instance.appointment.visit_definition.code in visit:
         return True
@@ -47,7 +44,6 @@ class MaternalLabRuleGroup(RuleGroup):
             alternative='none'),
         target_model=[('eit_lab', 'maternalrequisition')],
         target_requisition_panels=['PBMC Plasma (STORE ONLY)', ], )
-
 
     class Meta:
         app_label = 'eit_maternal'

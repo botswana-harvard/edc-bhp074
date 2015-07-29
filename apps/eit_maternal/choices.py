@@ -10,7 +10,7 @@ YES_NO_FF = (
     ('Yes', 'Yes'),
     ('No', 'No'),
     ('N/A', 'Not applicable (formula fed)'),
-    )
+)
 
 COHORT = [
     ('control', 'Control Cohort'),

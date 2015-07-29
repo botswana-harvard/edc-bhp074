@@ -10,6 +10,7 @@ def post_save_register_infants(sender, instance, raw, created, using, **kwarg):
     if isinstance(instance, MaternalPostReg):
         instance.post_save_register_infants(created)
 
+
 @receiver(post_save, weak=False, dispatch_uid='update_registered_subject_on_post_save')
 def update_registered_subject_on_post_save(sender, instance, raw, created, using, **kwarg):
     if isinstance(instance, MaternalConsent):
