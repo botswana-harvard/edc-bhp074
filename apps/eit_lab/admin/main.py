@@ -60,10 +60,12 @@ class AliquotAdmin(BaseModelAdmin):
                                              'user_modified'],)]
 
     list_display = ("aliquot_identifier", 'subject_identifier', 'processing', 'related',
-                    'to_receive', 'drawn', "aliquot_type", 'is_packed', 'panel', 'aliquot_condition', 'created',
+                    'to_receive', 'drawn', "aliquot_type",
+                    'is_packed', 'panel', 'aliquot_condition', 'created',
                     'user_created', 'hostname_created')
 
-    search_fields = ('aliquot_identifier', 'receive__receive_identifier', 'receive__registered_subject__subject_identifier')
+    search_fields = ('aliquot_identifier', 'receive__receive_identifier',
+                     'receive__registered_subject__subject_identifier')
 
     list_filter = ('aliquot_type', 'aliquot_condition', 'created', 'user_created', 'hostname_created')
 

@@ -23,7 +23,8 @@ class InfantBirth(BaseRegisteredSubjectModel):
 
     first_name = EncryptedFirstnameField(
         verbose_name="Infant's first name",
-        help_text="If infant name is unknown or not yet determined, use Baby + birth order + mother's last name, e.g. 'Baby1Malane'")
+        help_text=("If infant name is unknown or not yet determined, " +
+                   "use Baby + birth order + mother's last name, e.g. 'Baby1Malane'"))
     initials = InitialsField()
     birth_order = models.IntegerField(
         verbose_name='Birth Order',

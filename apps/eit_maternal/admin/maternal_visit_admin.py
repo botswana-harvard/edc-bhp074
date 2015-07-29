@@ -56,7 +56,9 @@ class MaternalVisitAdmin(BaseAppointmentModelAdmin):
     actions = [export_as_csv_action(description="CSV Export of Maternal Visit",
                fields=[],
                delimiter=',',
-               exclude=['created', 'modified', 'user_created', 'user_modified', 'revision', 'id', 'hostname_created', 'hostname_modified'],
+               exclude=['created', 'modified', 'user_created',
+                        'user_modified', 'revision', 'id',
+                        'hostname_created', 'hostname_modified'],
                extra_fields=OrderedDict(
                    {'subject_identifier': 'appointment__registered_subject__subject_identifier',
                     'gender': 'appointment__registered_subject__gender',

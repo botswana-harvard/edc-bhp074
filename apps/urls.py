@@ -25,8 +25,6 @@ EitAppConfiguration().prepare()
 site_visit_schedules.autodiscover()
 site_visit_schedules.build_all()
 site_rule_groups.autodiscover()
-# site_lab_tracker.autodiscover()
-# data_manager.prepare()
 site_sections.autodiscover()
 site_sections.update_section_lists()
 
@@ -41,40 +39,26 @@ for model in get_models():
 urlpatterns = patterns(
     '',
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
-    (r'^admin/logout/$', RedirectView.as_view(url='/{app_name}/logout/'.format(app_name=APP_NAME))),
+    (r'^admin/logout/$',
+     RedirectView.as_view(url='/{app_name}/logout/'.format(app_name=APP_NAME))),
     (r'^admin/', include(admin.site.urls)),
 )
 
 urlpatterns += patterns(
     '',
-    # (r'^%s/' % settings.DAJAXICE_MEDIA_PREFIX, include('dajaxice.urls')),
     url(dajaxice_config.dajaxice_url, include('dajaxice.urls')),
 )
 # this is for additional_requisitions
 urlpatterns += patterns(
     '',
-    url(r'^{app_name}/dashboard/visit/add_requisition/'.format(app_name=APP_NAME), additional_requisition, name="add_requisition"),
+    url(r'^{app_name}/dashboard/visit/add_requisition/'.format(
+        app_name=APP_NAME), additional_requisition, name="add_requisition"),
 )
 
 urlpatterns += patterns(
     '',
     url(r'^databrowse/(.*)', login_required(django_databrowse.site.root)),
-    # url(r'^databrowse/(?P<app_label>.*)/(?P<model_name>.*)/objects/(?P<pk>.*)/$', login_required(django_databrowse.site.root), name='databrowse'),
 )
-
-# urlpatterns += patterns('',
-#     (r'^bhp_sync/', include('edc.device.sync.urls')),
-# )
-
-# urlpatterns += patterns('',
-#     url(r'^{app_name}/(?P<section_name>audit_trail)/'.format(app_name=APP_NAME),
-#         include('edc.audit.urls'), name="section_url_name"),
-# )
-
-# urlpatterns += patterns('',
-#     url(r'^{app_name}/section/statistics/'.format(app_name=APP_NAME),
-#          include('apps.mpepu_stats.urls'), name="stats_url_name"),
-#  )
 
 urlpatterns += patterns(
     '',
@@ -110,7 +94,8 @@ urlpatterns += patterns(
 
 urlpatterns += patterns(
     '',
-    url(r'^{app_name}/$'.format(app_name=APP_NAME), RedirectView.as_view(url='/{app_name}/section/'.format(app_name=APP_NAME))),
+    url(r'^{app_name}/$'.format(app_name=APP_NAME),
+        RedirectView.as_view(url='/{app_name}/section/'.format(app_name=APP_NAME))),
     url(r'', RedirectView.as_view(url='/{app_name}/section/'.format(app_name=APP_NAME))),
 )
 

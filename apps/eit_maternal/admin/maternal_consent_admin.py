@@ -41,7 +41,9 @@ class MaternalConsentAdmin(BaseConsentModelAdmin):
 #     actions = [export_as_csv_action(description="CSV Export of Maternal Consent",
 #         fields=[],
 #         delimiter=',',
-#         exclude=['created', 'modified', 'user_created', 'user_modified', 'revision', 'id', 'hostname_created', 'hostname_modified', 'last_name', 'identity', 'confirm_identity', 'first_name' ],
+#         exclude=['created', 'modified', 'user_created', 'user_modified',
+#                    'revision', 'id', 'hostname_created', 'hostname_modified',
+#                    'last_name', 'identity', 'confirm_identity', 'first_name' ],
 #         extra_fields=OrderedDict(
 #             {'subject_identifier': 'registered_subject__subject_identifier',
 #              'gender': 'registered_subject__gender',

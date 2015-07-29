@@ -1,2 +1,2 @@
-from .infant_dashboard import *
-from .maternal_dashboard import *
+from .infant_dashboard import infant_dashboard
+from .maternal_dashboard import MaternalDashboard
