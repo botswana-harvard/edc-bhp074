@@ -19,7 +19,9 @@ class MaternalVisitForm (BaseConsentedModelForm):
     reason = forms.ChoiceField(
         label='Reason for visit',
         choices=[choice for choice in VISIT_REASON],
-        help_text="If 'unscheduled', information is usually reported at the next scheduled visit, but exceptions may arise",
+        help_text=("If 'unscheduled', information is " +
+                   "usually reported at the next scheduled " +
+                   "visit, but exceptions may arise"),
         widget=AdminRadioSelect(renderer=AdminRadioFieldRenderer),
     )
 

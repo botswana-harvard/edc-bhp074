@@ -17,7 +17,9 @@ class EitMaternalPostNatalVisitSchedule(VisitScheduleConfiguration):
     })
 
     schedule_groups = OrderedDict({
-        'Maternal Post Partum Reg': ScheduleGroupTuple('Maternal Post Partum Reg', 'maternal_eligible_postnatal', 'ELIGIBILITY', None),
+        'Maternal Post Partum Reg': ScheduleGroupTuple('Maternal Post Partum Reg',
+                                                       'maternal_eligible_postnatal',
+                                                       'ELIGIBILITY', None),
     })
 
     visit_definitions = OrderedDict()
@@ -34,12 +36,26 @@ class EitMaternalPostNatalVisitSchedule(VisitScheduleConfiguration):
         'grouping': 'maternal',
         'visit_tracking_model': MaternalVisit,
         'schedule_group': 'Maternal Post Partum Reg',
-        'instructions': 'As of 2012-11-26, submit requisition for Viral Load (storage only) instead of PHS Ultrasensitive Viral Load (<50)',
+        'instructions': ('As of 2012-11-26, submit requisition for ' +
+                         'Viral Load (storage only) instead of ' +
+                         'PHS Ultrasensitive Viral Load (<50)'),
         'requisitions': (
-            # (entry_order, app_label, model_name, panel.name, panel.edc_name, panel.panel_type, aliquot_type)
-            RequisitionPanelTuple(100L, u'eit_lab', u'maternalrequisition', 'CD4 (ARV)', 'TEST', 'WB', NOT_REQUIRED, ADDITIONAL),
-            RequisitionPanelTuple(200L, u'eit_lab', u'maternalrequisition', 'PBMC Plasma (STORE ONLY)', 'STORAGE', 'WB', NOT_REQUIRED, ADDITIONAL),
-            RequisitionPanelTuple(300L, u'eit_lab', u'maternalrequisition', 'Viral Load', 'TEST', 'WB', NOT_REQUIRED, ADDITIONAL),
+            '''
+            (entry_order, app_label, model_name,
+            panel.name, panel.edc_name,
+            panel.panel_type, aliquot_type)
+            '''
+            RequisitionPanelTuple(100L, u'eit_lab',
+                                  u'maternalrequisition',
+                                  'CD4 (ARV)', 'TEST', 'WB',
+                                  NOT_REQUIRED, ADDITIONAL),
+            RequisitionPanelTuple(200L, u'eit_lab', u'maternalrequisition',
+                                  'PBMC Plasma (STORE ONLY)',
+                                  'STORAGE', 'WB',
+                                  NOT_REQUIRED, ADDITIONAL),
+            RequisitionPanelTuple(300L, u'eit_lab', u'maternalrequisition',
+                                  'Viral Load', 'TEST', 'WB',
+                                  NOT_REQUIRED, ADDITIONAL),
         ),
         'entries': (
         )}

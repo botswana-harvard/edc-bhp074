@@ -35,9 +35,12 @@ class MaternalPostReg(BaseRegisteredSubjectModel):
         return self.reg_datetime
 
     def post_save_register_infants(self, created, **kwargs):
-        """Registers infant(s) using the bhp_identifier class which allocates identifiers and creates registered_subject instances.
+        """
+        Registers infant(s) using the bhp_identifier
+        class which allocates identifiers and creates registered_subject instances.
 
-        Called on the post_save signal"""
+        Called on the post_save signal
+        """
         protocol = "074"
         i_indicator = "1"
         check = CheckDigit()

@@ -40,7 +40,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -86,7 +90,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -132,7 +140,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -179,7 +191,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -225,7 +241,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -271,7 +291,10 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """(entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -317,7 +340,10 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """(entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -363,7 +389,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -409,7 +439,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -455,7 +489,10 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """(entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -501,7 +538,10 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """(entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -547,7 +587,10 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """(entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -593,7 +636,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -639,7 +686,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -685,7 +736,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -731,7 +786,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -777,7 +836,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -823,7 +886,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label,
+            model_name, requisition_panel_name,
+            panel_type, aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -869,7 +936,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -915,7 +986,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -961,7 +1036,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -1007,7 +1086,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -1052,7 +1135,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
@@ -1097,7 +1184,11 @@ class EitInfantBirthVisitSchedule(VisitScheduleConfiguration):
         'schedule_group': 'Infant Birth',
         'instructions': None,
         'requisitions': (
-            # (entry_order, app_label, model_name, requisition_panel_name, panel_type, aliquot_type_alpha_code, form_visible)
+            """
+            (entry_order, app_label, model_name,
+            requisition_panel_name, panel_type,
+            aliquot_type_alpha_code, form_visible)
+            """
             RequisitionPanelTuple(100L, u'eit_lab', u'infantrequisition',
                                   'DNA PCR', 'TEST', 'WB',
                                   NOT_REQUIRED, ADDITIONAL),
