@@ -7,7 +7,7 @@ __pycache__/
 test-*
 db.sqlite3
 etc/*
-bhp074/config/private_settings.py
+apps/private_settings.py
 # C extensions
 *.so
 
