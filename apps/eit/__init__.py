@@ -1,1 +1,0 @@
-from .eit_app_configuration import EitAppConfiguration
