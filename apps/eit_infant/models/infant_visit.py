@@ -1,17 +1,18 @@
 from django.core.urlresolvers import reverse
 from django.db import models
 
-from edc.audit.audit_trail import AuditTrail
-from edc.subject.visit_tracking.models.base_visit_tracking import BaseVisitTracking
+from edc_base.audit_trail import AuditTrail
+from edc_base.model.models.base_uuid_model import BaseUuidModel
+from edc_visit_tracking.models import BaseVisitTracking
 
 from apps.eit_infant.choices import VISIT_REASON
 
 
-class InfantVisit(BaseVisitTracking):
-
-    history = AuditTrail()
+class InfantVisit(BaseVisitTracking, BaseUuidModel):
 
     objects = models.Manager()
+
+    history = AuditTrail()
 
     def __unicode__(self):
         return unicode(self.appointment)

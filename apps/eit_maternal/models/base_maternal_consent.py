@@ -1,7 +1,5 @@
-from edc.subject.consent.models import BaseConsent
-from edc.subject.consent.mixins.bw import IdentityFieldsMixin
-
-# from .maternal_off_study_mixin import MaternalOffStudyMixin
+from edc_consent.models import BaseConsent
+from edc_consent.mixins.bw import IdentityFieldsMixin
 
 
 class BaseMaternalConsent(BaseConsent):

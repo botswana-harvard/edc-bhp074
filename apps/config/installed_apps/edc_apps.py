@@ -1,11 +1,13 @@
 EDC_APPS = (
-    'edc.apps.admin_supplemental_fields',
+    'edc_admin_exclude',
     'edc.apps.app_configuration',
     'edc.audit',
 
-    'edc.base.form',
-    'edc.base.model',
-    'edc.base.modeladmin',
+    'edc_base',
+
+    'edc_constants',
+
+    'edc_consent',
 
     'edc.core.bhp_birt_reports',
     'edc.core.bhp_common',
@@ -34,9 +36,6 @@ EDC_APPS = (
     'edc.data_dictionary',
     'edc.data_manager',
 
-    'edc.device.device',
-    'edc.device.sync',
-
     'edc.entry_meta_data',
     'edc.export',
 
@@ -58,7 +57,6 @@ EDC_APPS = (
     'edc.subject.appointment',
     'edc.subject.appointment_helper',
     'edc.subject.code_lists',
-    'edc.subject.consent',
     'edc.subject.contact',
     'edc.subject.entry',
     'edc.subject.lab_tracker',

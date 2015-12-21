@@ -1,15 +1,18 @@
 from django.core.urlresolvers import reverse
+from django.db import models
 
-from edc.audit.audit_trail import AuditTrail
-from edc.subject.visit_tracking.models import BaseVisitTracking
-from edc.subject.visit_tracking.settings import VISIT_REASON_NO_FOLLOW_UP_CHOICES
+from edc_base.audit_trail import AuditTrail
+from edc_base.model.models.base_uuid_model import BaseUuidModel
+from edc_visit_tracking.models import BaseVisitTracking
+from edc_visit_tracking.constants import VISIT_REASON_NO_FOLLOW_UP_CHOICES
 
 from ..choices import VISIT_REASON
 
 
-class MaternalVisit(BaseVisitTracking):
+class MaternalVisit(BaseVisitTracking, BaseUuidModel):
 
     """ Maternal visit form that links all follow-up forms """
+    objects = models.Manager()
 
     history = AuditTrail()
 

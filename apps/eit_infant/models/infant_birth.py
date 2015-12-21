@@ -3,23 +3,27 @@ from django.db import models, IntegrityError
 
 from datetime import datetime
 
-from edc.audit.audit_trail import AuditTrail
-from edc.base.model.fields.custom.custom_fields import InitialsField
-from edc.base.model.validators import date_not_future
-from edc.choices.common import GENDER_UNDETERMINED
+from edc_base.audit_trail import AuditTrail
+from edc_base.model.fields import InitialsField
+from edc_base.model.models import BaseUuidModel
 from edc.core.crypto_fields.fields import EncryptedFirstnameField
-from edc.subject.consent.classes import ConsentHelper
-from edc.subject.registration.models import BaseRegisteredSubjectModel
 from edc.subject.appointment.models import Appointment
+from edc.subject.appointment_helper.models import BaseAppointmentMixin
+from edc.subject.registration.models import RegisteredSubject
+from edc_base.model.validators import date_not_future
+from edc_consent.classes import ConsentHelper
+from edc_constants.choices import GENDER_UNDETERMINED
 
 from apps.eit_maternal.models import MaternalConsent
 
 from ..models import InfantVisit
 
 
-class InfantBirth(BaseRegisteredSubjectModel):
+class InfantBirth(BaseAppointmentMixin, BaseUuidModel):
 
     """MP008 - Infant Birth Record """
+
+    registered_subject = models.OneToOneField(RegisteredSubject, null=True)
 
     first_name = EncryptedFirstnameField(
         verbose_name="Infant's first name",

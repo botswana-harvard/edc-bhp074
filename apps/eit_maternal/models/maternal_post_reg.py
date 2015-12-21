@@ -2,18 +2,21 @@ from datetime import datetime
 from django.db import models
 from django.core.urlresolvers import reverse
 
-from edc.audit.audit_trail import AuditTrail
-from edc.base.model.validators import datetime_not_future
+from edc_base.audit_trail import AuditTrail
+from edc_base.model.validators import datetime_not_future
+from edc_base.model.models.base_uuid_model import BaseUuidModel
 from edc.core.identifier.classes import CheckDigit
-from edc.subject.registration.models import BaseRegisteredSubjectModel
+from edc.subject.appointment_helper.models import BaseAppointmentMixin
 from edc.subject.registration.models import RegisteredSubject
 
 from .maternal_consent import MaternalConsent
 
 
-class MaternalPostReg(BaseRegisteredSubjectModel):
+class MaternalPostReg(BaseAppointmentMixin, BaseUuidModel):
 
     """ Post-partum registration """
+
+    registered_subject = models.OneToOneField(RegisteredSubject, null=True)
 
     reg_datetime = models.DateTimeField(default=datetime.today())
 
@@ -28,6 +31,7 @@ class MaternalPostReg(BaseRegisteredSubjectModel):
         verbose_name="How many babies are registering to the study? ",
         help_text="",
     )
+    objects = models.Manager()
 
     history = AuditTrail()
 

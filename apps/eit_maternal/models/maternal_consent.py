@@ -1,7 +1,7 @@
 from django.db import models
 from django.core.urlresolvers import reverse
 
-from edc.audit.audit_trail import AuditTrail
+from edc_base.audit_trail import AuditTrail
 from edc.subject.registration.models import RegisteredSubject
 
 from .base_maternal_consent import BaseMaternalConsent
@@ -12,6 +12,7 @@ from ..choices import COHORT
 class MaternalConsent(BaseMaternalConsent):
 
     """Model for maternal consent and registration model for mothers."""
+    objects = models.Manager()
 
     history = AuditTrail()
 
