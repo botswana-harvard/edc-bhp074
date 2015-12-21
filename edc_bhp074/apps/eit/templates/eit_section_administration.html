@@ -1,0 +1,25 @@
+{% extends "section_administration.html"%}
+{% load admin_urls %}
+{% load url from future %}
+
+
+{% block device_sync %}{% endblock device_sync %}
+
+{% block admin_sections %}
+    <ul>
+    <li><A href="/admin/">All sections</A>
+    </ul>
+    {% block eit %}
+	    <H5>Eit</H5>
+	    <ul>
+	    <li><A href="/admin/eit_infant/">eit Infant</A></li>
+	    <li><A href="/admin/eit_maternal/">eit Maternal</A></li>
+	    
+	    </ul>
+    {% endblock eit %}   
+{% endblock admin_sections %}
+
+
+{% block edc_import %}{% endblock edc_import %}
+
+{% block edc_export %}{% endblock edc_export %}

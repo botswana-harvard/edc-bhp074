@@ -1,0 +1,84 @@
+{% extends "section.html"%}
+{% block section_title%}{% endblock%}
+
+{% block section_links %}
+
+    <table>
+    <tr>
+    <td>
+        <form method="GET" action="/admin/eit/infantbirth/add/">
+        {% csrf_token %}
+        <input type="submit" value="Infant Birth" class="default" name="add_infantbirth" />
+        </form>
+    </td>
+
+    </tr>
+    </table> 
+
+    <H5>Search</H5>
+
+    <table border=1 >
+    <tr>
+    <td>
+        <table >
+        <thead><th colspan="2">Infant Births</th></thead>
+        <tbody>
+        <tr>
+        <td>
+            <form method="POST" action="/eit/{{ section_name }}/search/infantbirth/">
+            {% csrf_token %}
+            <input type="submit" value="Recent Infant Births" class="{% if search_name == "infantbirth" %}{% else %}default{% endif %}" />
+            </form>
+        </td>
+        </tbody>
+        </table>
+    </td>    
+
+    <td>
+    {% if search_name %}
+    <table bgcolor="LightYellow">
+    <thead><th colspan="4">Search Infant Registrations by:</th></thead>
+    <tr>
+        <td>
+        <form method="GET" action="/eit/{{ section_name }}/search/{{ search_name }}/byword/">
+        <input type="submit" value="word" class="default" />
+        </form>
+        </td>
+        <td>
+        <form method="GET" action="/eit/{{ section_name }}/search/{{ search_name }}/byweek/">
+        <input type="submit" value="week" class="default" />
+        </form>
+        </td>
+        <td>
+        <form method="GET" action="/eit/{{ section_name }}/search/{{ search_name }}/bydate/">
+        <input type="submit" value="date" class="default" />
+        </form>
+        </td>
+        <td>
+        <form method="GET" action="/eit/{{ section_name }}/search/{{ search_name }}/calendar/">
+        <input type="submit" value="Calendar" class="default" />
+        </form>
+        </td>
+    </tr>
+    </table>
+    {% endif %}
+    </td></tr>
+    </table>
+
+
+{% endblock %}
+
+{% block top_search_name %}
+
+    {% if search_results.object_list %}
+        <h3>Most recent (top) {{ search_results.object_list.count }} {{search_name|capfirst}}{{ search_results.object_list|pluralize }}</h3>
+        <i><small>Showing top {{ search_results.object_list.count }} result{{ search_results.object_list|pluralize }} only. Use search to see more.</small></i>
+        {% include top_result_include_file %}
+    
+    {% endif %}
+
+{% endblock%}
+
+{% block other_section_links %}
+</div>
+{% endblock%}
