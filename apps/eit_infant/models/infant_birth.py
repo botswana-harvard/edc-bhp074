@@ -3,15 +3,14 @@ from django.db import models, IntegrityError
 
 from datetime import datetime
 
-from edc_base.audit_trail import AuditTrail
-from edc_base.model.fields import InitialsField
-from edc_base.model.models import BaseUuidModel
 from edc.core.crypto_fields.fields import EncryptedFirstnameField
 from edc.subject.appointment.models import Appointment
 from edc.subject.appointment_helper.models import BaseAppointmentMixin
 from edc.subject.registration.models import RegisteredSubject
+from edc_base.audit_trail import AuditTrail
+from edc_base.model.fields import InitialsField
+from edc_base.model.models import BaseUuidModel
 from edc_base.model.validators import date_not_future
-from edc_consent.classes import ConsentHelper
 from edc_constants.choices import GENDER_UNDETERMINED
 
 from apps.eit_maternal.models import MaternalConsent
@@ -61,10 +60,6 @@ class InfantBirth(BaseAppointmentMixin, BaseUuidModel):
     def get_consenting_subject_identifier(self):
         """Returns mother's identifier."""
         return self.registered_subject.relative_identifier
-
-    def get_current_consent_version(self):
-        """Confirms subject has a consent that covers data entry for this model."""
-        return ConsentHelper(self).get_current_consent_version()
 
     def __unicode__(self):
         return '%s [%s] %s %s' % (

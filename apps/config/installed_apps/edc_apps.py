@@ -50,8 +50,6 @@ EDC_APPS = (
 
     'edc.notification',
 
-    'edc.pharma.dispenser',
-
     'edc.subject.actg',
     'edc.subject.adverse_event',
     'edc.subject.appointment',

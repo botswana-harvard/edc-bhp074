@@ -1,8 +1,9 @@
+from edc_base.model.models.base_uuid_model import BaseUuidModel
+from edc_consent.models.fields.bw import IdentityFieldsMixin
 from edc_consent.models import BaseConsent
-from edc_consent.mixins.bw import IdentityFieldsMixin
 
 
-class BaseMaternalConsent(BaseConsent):
+class BaseMaternalConsent(BaseConsent, IdentityFieldsMixin, BaseUuidModel):
 
     """Model for maternal consent and registration model for mothers."""
 
@@ -31,12 +32,3 @@ class BaseMaternalConsent(BaseConsent):
 
     class Meta:
         abstract = True
-
-# add Mixin fields to abstract class
-for field in IdentityFieldsMixin._meta.fields:
-    if field.name not in [fld.name for fld in BaseMaternalConsent._meta.fields]:
-        field.contribute_to_class(BaseMaternalConsent, field.name)
-
-# for field in ReviewAndUnderstandingFieldsMixin._meta.fields:
-#     if field.name not in [fld.name for fld in BaseMaternalConsent._meta.fields]:
-#         field.contribute_to_class(BaseMaternalConsent, field.name)

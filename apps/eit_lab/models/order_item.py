@@ -2,16 +2,15 @@ from datetime import datetime
 
 from django.db import models
 
-from edc.audit.audit_trail import AuditTrail
-from edc.device.sync.models import BaseSyncUuidModel
+from edc_base.audit_trail import AuditTrail
+from edc_base.model.models import BaseUuidModel
 
 from apps.eit_lab.models import Aliquot
 from apps.eit_lab.models import Order
 from apps.eit_lab.models import Panel
-# from ..managers import OrderItemManager
 
 
-class OrderItem(BaseSyncUuidModel):
+class OrderItem(BaseUuidModel):
 
     order = models.ForeignKey(Order)
 
@@ -38,9 +37,9 @@ class OrderItem(BaseSyncUuidModel):
         null=True,
         help_text="non-user helper field to simplify search and filtering")
 
-    history = AuditTrail()
+    objects = models.Manager()
 
-#     objects = OrderItemManager()
+    history = AuditTrail()
 
     def save(self, *args, **kwargs):
         self.subject_identifier = self.aliquot.receive.registered_subject.subject_identifier

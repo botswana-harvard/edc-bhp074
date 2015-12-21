@@ -1,7 +1,7 @@
 from django.core.urlresolvers import reverse
 from django.db import models
 
-from edc.audit.audit_trail import AuditTrail
+from edc_base.audit_trail import AuditTrail
 from edc.lab.lab_requisition.models import BaseClinicRequisition
 
 from apps.eit_infant.models import InfantVisit

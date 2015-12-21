@@ -2,16 +2,17 @@ from datetime import datetime
 
 from django.db import models
 
-from edc.device.sync.models import BaseSyncUuidModel
+from edc_base.model.models import BaseUuidModel
+from edc_base.audit_trail import AuditTrail
 
-# from ..managers import OrderManager
 
-
-class Order(BaseSyncUuidModel):
+class Order(BaseUuidModel):
 
     order_datetime = models.DateTimeField(default=datetime.today())
 
-#     objects = OrderManager()
+    objects = models.Manager()
+
+    history = AuditTrail()
 
     def natural_key(self):
         return (self.order_datetime, )
