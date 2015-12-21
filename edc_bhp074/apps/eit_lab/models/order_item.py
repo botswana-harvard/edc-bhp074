@@ -5,9 +5,9 @@ from django.db import models
 from edc_base.audit_trail import AuditTrail
 from edc_base.model.models import BaseUuidModel
 
-from apps.eit_lab.models import Aliquot
-from apps.eit_lab.models import Order
-from apps.eit_lab.models import Panel
+from edc_bhp074.apps.eit_lab.models import Aliquot
+from edc_bhp074.apps.eit_lab.models import Order
+from edc_bhp074.apps.eit_lab.models import Panel
 
 
 class OrderItem(BaseUuidModel):

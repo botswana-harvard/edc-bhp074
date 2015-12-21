@@ -5,8 +5,8 @@ from edc_base.audit_trail import AuditTrail
 from edc.lab.lab_requisition.models import BaseClinicRequisition
 # from edc.entry_meta_data.managers import RequisitionMetaDataManager
 
-from apps.eit_maternal.models import MaternalVisit
-from apps.eit_lab.managers import RequisitionManager
+from edc_bhp074.apps.eit_maternal.models import MaternalVisit
+from edc_bhp074.apps.eit_lab.managers import RequisitionManager
 
 from .aliquot_type import AliquotType
 from .packing_list import PackingList

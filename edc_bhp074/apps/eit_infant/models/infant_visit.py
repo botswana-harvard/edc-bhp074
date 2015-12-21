@@ -5,7 +5,7 @@ from edc_base.audit_trail import AuditTrail
 from edc_base.model.models.base_uuid_model import BaseUuidModel
 from edc_visit_tracking.models import BaseVisitTracking
 
-from apps.eit_infant.choices import VISIT_REASON
+from edc_bhp074.apps.eit_infant.choices import VISIT_REASON
 
 
 class InfantVisit(BaseVisitTracking, BaseUuidModel):

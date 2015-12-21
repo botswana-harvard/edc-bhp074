@@ -4,8 +4,8 @@ from django.db import models
 from edc_base.audit_trail import AuditTrail
 from edc.lab.lab_requisition.models import BaseClinicRequisition
 
-from apps.eit_infant.models import InfantVisit
-from apps.eit_lab.managers import RequisitionManager
+from edc_bhp074.apps.eit_infant.models import InfantVisit
+from edc_bhp074.apps.eit_lab.managers import RequisitionManager
 
 from .packing_list import PackingList
 from .panel import Panel

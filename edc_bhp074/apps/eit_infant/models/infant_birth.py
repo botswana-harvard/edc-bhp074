@@ -13,7 +13,7 @@ from edc_base.model.models import BaseUuidModel
 from edc_base.model.validators import date_not_future
 from edc_constants.choices import GENDER_UNDETERMINED
 
-from apps.eit_maternal.models import MaternalConsent
+from edc_bhp074.apps.eit_maternal.models import MaternalConsent
 
 from ..models import InfantVisit
 
