@@ -2,6 +2,7 @@ from django.db import models
 from django.core.urlresolvers import reverse
 
 from edc.subject.registration.models import RegisteredSubject
+from edc_base.model.models import BaseUuidModel
 
 from lis.specimen.lab_aliquot.managers import AliquotManager
 from lis.specimen.lab_aliquot.models import BaseAliquot
@@ -13,7 +14,7 @@ from .infant_requisition import InfantRequisition
 from .maternal_requisition import MaternalRequisition
 
 
-class Aliquot(BaseAliquot):
+class Aliquot(BaseAliquot, BaseUuidModel):
 
     receive = models.ForeignKey(
         Receive,

@@ -1,8 +1,7 @@
 from edc.lab.lab_requisition.admin import BaseRequisitionModelAdmin
 
-from apps.eit_maternal.models import MaternalVisit
-
-from apps.eit_lab.models import Panel
+from bhp074.apps.eit_maternal.models import MaternalVisit
+from bhp074.apps.eit_lab.models import Panel
 
 
 class BaseMaternalRequisitionModelAdmin (BaseRequisitionModelAdmin):
@@ -10,6 +9,7 @@ class BaseMaternalRequisitionModelAdmin (BaseRequisitionModelAdmin):
     visit_model = MaternalVisit
     visit_fieldname = 'maternal_visit'
     dashboard_type = 'maternal'
+    visit_attr = 'maternal_visit'
 
     def __init__(self, *args, **kwargs):
         super(BaseMaternalRequisitionModelAdmin, self).__init__(*args, **kwargs)

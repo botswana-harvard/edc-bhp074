@@ -1,11 +1,13 @@
 from edc.lab.lab_requisition.admin import BaseRequisitionModelAdmin
-from apps.eit_infant.models import InfantVisit
+
+from bhp074.apps.eit_infant.models import InfantVisit
 
 
 class BaseInfantRequisitionModelAdmin (BaseRequisitionModelAdmin):
 
     visit_model = InfantVisit
     visit_fieldname = 'infant_visit'
+    visit_attr = 'infant_visit'
     dashboard_type = 'infant'
 
     def __init__(self, *args, **kwargs):

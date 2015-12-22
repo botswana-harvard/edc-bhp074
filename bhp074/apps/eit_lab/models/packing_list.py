@@ -1,13 +1,10 @@
 from django.db import models
 
 from edc.lab.lab_packing.models import BasePackingList
-
-# from .infant_requisition import InfantRequisition
-# from .maternal_requisition import MaternalRequisition
-# from .aliquot import Aliquot
+from edc_base.model.models.base_uuid_model import BaseUuidModel
 
 
-class PackingList(BasePackingList):
+class PackingList(BasePackingList, BaseUuidModel):
     @property
     def item_models(self):
         item_m = []

@@ -1,8 +1,10 @@
 from lis.specimen.lab_aliquot_list.managers import AliquotConditionManager
 from lis.specimen.lab_aliquot_list.models import BaseAliquotCondition
 
+from edc_base.model.models import BaseUuidModel
 
-class AliquotCondition(BaseAliquotCondition):
+
+class AliquotCondition(BaseAliquotCondition, BaseUuidModel):
 
     objects = AliquotConditionManager()
 

@@ -1,6 +1,6 @@
 from django import forms
 
-from edc.subject.consent.forms import BaseConsentedModelForm
+from edc_consent.forms import BaseConsentedModelForm
 
 from ..models import MaternalPostReg
 

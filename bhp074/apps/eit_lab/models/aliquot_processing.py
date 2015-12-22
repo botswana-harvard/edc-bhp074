@@ -1,13 +1,14 @@
 from django.db import models
 
 from edc.lab.lab_profile.models import BaseProcessing
+from edc_base.model.models import BaseUuidModel
 
 from .aliquot import Aliquot
 from .aliquot_profile import AliquotProfile
 # from ..managers import AliquotProcessingManager
 
 
-class AliquotProcessing(BaseProcessing):
+class AliquotProcessing(BaseProcessing, BaseUuidModel):
 
     aliquot = models.ForeignKey(
         Aliquot,

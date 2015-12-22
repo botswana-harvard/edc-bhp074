@@ -2,7 +2,7 @@ from django.db.models import Q, get_model
 from django import forms
 from django.contrib.admin.widgets import AdminRadioSelect, AdminRadioFieldRenderer
 
-from edc.subject.consent.forms import BaseConsentedModelForm
+from edc_consent.forms import BaseConsentedModelForm
 
 from ..choices import VISIT_REASON
 from ..models import MaternalVisit

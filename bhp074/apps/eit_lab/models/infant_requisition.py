@@ -1,22 +1,23 @@
 from django.core.urlresolvers import reverse
 from django.db import models
 
+from edc.entry_meta_data.managers import RequisitionMetaDataManager
+from edc.lab.lab_requisition.models import BaseRequisition
 from edc_base.audit_trail import AuditTrail
-from edc.lab.lab_requisition.models import BaseClinicRequisition
+from edc_base.model.models.base_uuid_model import BaseUuidModel
 
 from bhp074.apps.eit_infant.models import InfantVisit
-from bhp074.apps.eit_lab.managers import RequisitionManager
+
+from ..managers import RequisitionManager
 
 from .packing_list import PackingList
 from .panel import Panel
 from .aliquot_type import AliquotType
 
 
-class InfantRequisition(BaseClinicRequisition):
+class InfantRequisition(BaseRequisition, BaseUuidModel):
 
     infant_visit = models.ForeignKey(InfantVisit)
-
-    entry_meta_data_manager = RequisitionManager(InfantVisit)
 
     packing_list = models.ForeignKey(PackingList, null=True, blank=True)
 
@@ -24,7 +25,11 @@ class InfantRequisition(BaseClinicRequisition):
 
     panel = models.ForeignKey(Panel)
 
+    objects = RequisitionManager()
+
     history = AuditTrail()
+
+    entry_meta_data_manager = RequisitionMetaDataManager(InfantVisit)
 
     def get_visit(self):
         return self.infant_visit
